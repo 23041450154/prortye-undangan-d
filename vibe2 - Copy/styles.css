@@ -945,6 +945,7 @@ section {
     line-height: 1.6;
     margin-bottom: 8px;
     text-align: justify;
+    word-wrap: break-word;
 }
 
 .ucapan-waktu {
@@ -1667,4 +1668,5 @@ section {
         padding: 30px 0;
     }
 }
+
 
