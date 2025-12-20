@@ -944,6 +944,7 @@ section {
     color: var(--rose-gold);
     line-height: 1.6;
     margin-bottom: 8px;
+    text-align: justify;
 }
 
 .ucapan-waktu {
@@ -1666,3 +1667,4 @@ section {
         padding: 30px 0;
     }
 }
+
