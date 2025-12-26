@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Nabila & Sukma</title>
+    <meta name="description" content="Undangan Pernikahan Digital Nabila Shafna & Sukma Adi Wijaya">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cover Page -->
+    <section id="cover" class="cover-page">
+        <div class="cover-overlay"></div>
+        <div class="floral-decoration floral-top-left"></div>
+        <div class="floral-decoration floral-bottom-right"></div>
+        <div class="cover-content">
+            <p class="cover-subtitle animate-fade-in">The Wedding Of</p>
+            <h1 class="cover-title animate-fade-in-delay">Nabila & Sukma</h1>
+            <p class="cover-date animate-fade-in-delay-2">Selasa, 2 Februari 2026</p>
+            <button id="openInvitation" class="btn-primary animate-fade-in-delay-3">
+                <span>Buka Undangan</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Main Content (Hidden until invitation opened) -->
+    <main id="mainContent" class="main-content hidden">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-image-wrapper reveal reveal--zoom">
+                    <div class="hero-image">
+                        <img src="assets/gallery/hero-image3.jpeg" alt="Pasangan Pengantin">
+                    </div>
+                </div>
+                <div class="hero-content reveal">
+                    <p class="hero-subtitle">We Are Getting Married</p>
+                    <h2 class="hero-names">Nabila & Sukma</h2>
+                    <p class="hero-date">Selasa, 2 Februari 2026</p>
+                </div>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-wrapper reveal">
+                    <div class="countdown-item">
+                        <span id="days" class="countdown-number">00</span>
+                        <span class="countdown-label">Hari</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours" class="countdown-number">00</span>
+                        <span class="countdown-label">Jam</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes" class="countdown-number">00</span>
+                        <span class="countdown-label">Menit</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds" class="countdown-number">00</span>
+                        <span class="countdown-label">Detik</span>
+                    </div>
+                </div>
+                
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Nabila+%26+Sukma&dates=20260207T080000Z/20260207T150000Z&details=Undangan+Pernikahan+Nabila+Shafna+%26+Sukma+Adi+Wijaya&location=Jakarta" target="_blank" class="btn-secondary reveal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span>Simpan Tanggal</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Mempelai Section -->
+        <section id="mempelai" class="mempelai-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Mempelai</p>
+                    <h2 class="section-title">Calon Pengantin</h2>
+                </div>
+                
+                <div class="mempelai-cards">
+                    <!-- Mempelai Wanita -->
+                    <div class="mempelai-card reveal reveal--left">
+                        <div class="mempelai-image">
+                            <img src="assets/gallery/mempelai-wanita2.jpeg" alt="Mempelai Wanita">
+                        </div>
+                        <h3 class="mempelai-name">Nabila Shafna, S.Pd</h3>
+                        <p class="mempelai-parents">Putri dari<br>Bapak H. Jajat Sudrajat<br>& Ibu Hj. Nurmawati</p>
+                        <a href="https://instagram.com/nabilashafnaa_" target="_blank" class="mempelai-social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <span>@</span>nabilashafnaa_
+                        </a>
+                    </div>
+
+                    <!-- Ampersand -->
+                    <div class="mempelai-separator reveal reveal--zoom">
+                        <span>&</span>
+                    </div>
+
+                    <!-- Mempelai Pria -->
+                    <div class="mempelai-card reveal reveal--right">
+                        <div class="mempelai-image">
+                            <img src="assets/gallery/mempelai-pria2.jpeg" alt="Mempelai Pria">
+                        </div>
+                        <h3 class="mempelai-name">Sukma Adi Wijaya, S.Pd., Gr.</h3>
+                        <p class="mempelai-parents">Putra dari<br>Bapak Untung<br>& Ibu Widyatningsih</p>
+                        <a href="https://instagram.com/sukma_n0607" target="_blank" class="mempelai-social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <span>@sukma_n0607</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quran Verse Section -->
+        <section class="quran-section">
+            <div class="container">
+                <div class="quran-content reveal reveal--zoom">
+                    <div class="quran-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <p class="quran-text">"Dan Dialah yang menciptakan manusia dari air, lalu Dia jadikan (manusia itu punya) keturunan dan mushaharah dan Tuhanmu adalah Mahakuasa."</p>
+                    <p class="quran-verse">— QS. Al-Furqan: 54</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri Section -->
+        <section id="galeri" class="galeri-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Momen Bahagia</p>
+                    <h2 class="section-title">Galeri Foto</h2>
+                </div>
+                
+                <div class="galeri-grid" id="galeriGrid">
+                    <div class="galeri-item reveal" data-index="0">
+                        <img src="assets/gallery/gallery-1.jpeg" alt="Momen pertama kami bertemu">
+                        <p class="galeri-caption">Momen pertama kami bertemu</p>
+                    </div>
+                    <div class="galeri-item reveal" data-index="1">
+                        <img src="assets/gallery/gallery-2.jpeg" alt="Kenangan indah bersama">
+                        <p class="galeri-caption">Kenangan indah bersama</p>
+                    </div>
+                    <div class="galeri-item reveal" data-index="2">
+                        <img src="assets/gallery/gallery-3.jpeg" alt="Perjalanan cinta kami">
+                        <p class="galeri-caption">Perjalanan cinta kami</p>
+                    </div>
+                    <div class="galeri-item reveal" data-index="3">
+                        <img src="assets/gallery/gallery-4.jpeg" alt="Hari yang tak terlupakan">
+                        <p class="galeri-caption">Hari yang tak terlupakan</p>
+                    </div>
+                    <div class="galeri-item reveal" data-index="4">
+                        <img src="assets/gallery/gallery-5.jpeg" alt="Hari yang tak terlupakan">
+                        <p class="galeri-caption">Hari yang tak terlupakan</p>
+                    </div>
+                    <div class="galeri-item reveal" data-index="5">
+                        <img src="assets/gallery/gallery-6.jpeg" alt="Hari yang tak terlupakan">
+                        <p class="galeri-caption">Hari yang tak terlupakan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox hidden">
+            <div class="lightbox-overlay"></div>
+            <div class="lightbox-content">
+                <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+                <div class="lightbox-image-wrapper">
+                    <img id="lightboxImage" src="" alt="Gallery Image">
+                </div>
+                <p class="lightbox-caption" id="lightboxCaption"></p>
+                <p class="lightbox-counter" id="lightboxCounter"></p>
+            </div>
+        </div>
+
+        <!-- Detail Acara Section -->
+        <section id="acara" class="acara-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Waktu & Tempat</p>
+                    <h2 class="section-title">Detail Acara</h2>
+                </div>
+
+                <div class="acara-cards">
+                    <!-- Akad Nikah -->
+                    <!-- <div class="acara-card acara-card--with-maps reveal reveal--left">
+                        <div class="acara-info">
+                            <div class="acara-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="acara-title">Akad Nikah</h3>
+                            <p class="acara-date">Senin, 2 Februari 2026</p>
+                            <p class="acara-time">08:00 - 10:00 WIB</p>
+                            <p class="acara-location" id="alamatAkad">Masjid Agung Al-Azhar<br>Jl. Sisingamangaraja, Kebayoran Baru<br>Jakarta Selatan</p>
+                            <a href="#" id="btnMapsAkad" target="_blank" rel="noopener noreferrer" class="btn-maps">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Buka di Google Maps</span>
+                            </a>
+                        </div>
+                        <div class="acara-maps">
+                            <div class="maps-wrapper">
+                                <iframe id="embedMapsAkad" src="" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Divider -->
+                    <div class="acara-divider reveal reveal--zoom">
+                        <div class="divider-line"></div>
+                        <div class="divider-flower">❀</div>
+                        <div class="divider-line"></div>
+                    </div>
+
+                    <!-- Resepsi -->
+                    <div class="acara-card acara-card--with-maps reveal reveal--right">
+                        <div class="acara-info">
+                            <div class="acara-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3 class="acara-title">Akad & Resepsi</h3>
+                            <p class="acara-date">Sabtu, 2 Februari 2026</p>
+                            <p class="acara-time">09:00 WIB - Selesai</p>
+                            <p class="acara-location" id="alamatResepsi">Nusa Agung<br>Belitang, Kab. Ogan Komering Ulu Timur<br>Sumatera Selatan</p>
+                            <a href="https://www.google.com/maps/place/4%C2%B006'54.5%22S+104%C2%B045'26.2%22E/@-4.1151302,104.7546961,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-4.1151302!4d104.757271?hl=id&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" id="btnMapsResepsi" target="_blank" rel="noopener noreferrer" class="btn-maps">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Buka di Google Maps</span>
+                            </a>
+                        </div>
+                        <div class="acara-maps">
+                            <div class="maps-wrapper">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3979.532040857704!2d104.75469607497581!3d-4.115130195858628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMDYnNTQuNSJTIDEwNMKwNDUnMjYuMiJF!5e0!3m2!1sid!2sid!4v1766723883051!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <!-- <iframe id="embedMapsResepsi" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3979.532040857704!2d104.75469607497581!3d-4.115130195858628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMDYnNTQuNSJTIDEwNMKwNDUnMjYuMiJF!5e0!3m2!1sid!2sid!4v1766723545175!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Story Section -->
+        <section id="story" class="story-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Cerita Kami</p>
+                    <h2 class="section-title">Love Story</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal reveal--left">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-date">Juli 2025</h4>
+                            <h3 class="timeline-title">Pertama Bertemu</h3>
+                            <p class="timeline-text">Tidak ada yang kebetulan di dunia ini, semua sudah tersusun rapi oleh sang maha kuasa, kita tidak bisa memilih kepada siapa kita akan jatuh cinta, uniknya kita pertama kali berkenalan di sebuah media sosial dimana, kita saling bertanya satu sama lain, pertanyaan-pertanyaan itu yang membuat kita lebih dekat dan memutuskan untuk bertemu, tepatnya pada tanggal 20 Juli 2025. senyum pertama yang tak terlupakan menjadi awal dari sebuah cerita indah. tidak ada yang pernah menyangka bahwa pertemuan di dunia maya itu membawa kami pada suatu ikatan cinta yang suci hari ini.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal reveal--left">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-date">Agustus 2025</h4>
+                            <h3 class="timeline-title">Pendekatan</h3>
+                            <p class="timeline-text">Singkat cerita seiring berjalannya waktu kami terus berkomunikasi, saling bertukar cerita, dan berkeluh kesah, dan setelah beberapa bulan kami saling berkomitmen. dan ya memang tidak ada kata pacaran bahkan kami tidak punya tanggal jadian, tapi alam seakan terus berkonspirasi untuk menyatukan kami berdua.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal reveal--left">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-date">Desember 2025</h4>
+                            <h3 class="timeline-title">Lamaran</h3>
+                            <p class="timeline-text">Semakin lama kami semakin merasa saling melengkapi satu sama lain, dan merasa bahwa memang dialah orang yang cocok untuk menjadi teman hidup baik suka ataupun duka. Kehendaknya menuntun kami pada sebuah pertemuan yang tak pernah disangka hingga akhirnya pada 07 Desember 2025 membawa kami pada sebuah ikatan yang di Ridhoi-Nya.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal reveal--left">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-date">Februari 2026</h4>
+                            <h3 class="timeline-title">Menikah</h3>
+                            <p class="timeline-text">Percayalah, bukan karna bertemu lalu berjodoh tapi karna berjodoh lah maka kami dipertemukan, kami memutuskan untuk mengikrarkan janji suci pernikahan kami di bulan Februari 2026. Insya Allah Sebagai mana yang pernah dikatakan oleh saydina Ali bin Abi Thalib "Apa yang menjadi takdirmu akan menemukan jalannya untuk menemukanmu."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wedding Gift Section -->
+        <section id="gift" class="gift-section">
+            <div class="container">
+                <div class="gift-content reveal reveal--zoom">
+                    <div class="gift-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 12 20 22 4 22 4 12"></polyline>
+                            <rect x="2" y="7" width="20" height="5"></rect>
+                            <line x1="12" y1="22" x2="12" y2="7"></line>
+                            <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+                            <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="gift-title">Wedding Gift</h2>
+                    <p class="gift-text">
+                        Kehadiran Bapak/Ibu/Saudara/i sudah merupakan anugerah terindah bagi kami. 
+                        Namun, apabila Bapak/Ibu/Saudara/i ingin memberikan tanda kasih, 
+                        kami menyediakan amplop digital untuk memudahkan.
+                    </p>
+                    <button id="openGiftModal" class="btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                            <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                        <span>Klik di Sini</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift Modal -->
+        <div id="giftModal" class="modal hidden">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close" id="closeGiftModal">&times;</button>
+                <h3 class="modal-title">Amplop Digital</h3>
+                <div class="gift-accounts">
+                    <div class="gift-account">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Logo_dana_blue.svg/200px-Logo_dana_blue.svg.png" alt="Dana" class="bank-logo">
+                        <p class="account-name">Sukma Adi Wijaya</p>
+                        <p class="account-number">085709385286</p>
+                        <button class="btn-copy" data-copy="085709385286">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <span>Salin</span>
+                        </button>
+                    </div>
+                    <!-- <div class="gift-account">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bank_Mandiri_logo_2016.svg/200px-Bank_Mandiri_logo_2016.svg.png" alt="Mandiri" class="bank-logo">
+                        <p class="account-name">Putra Wijaya</p>
+                        <p class="account-number">0987654321</p>
+                        <button class="btn-copy" data-copy="0987654321">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <span>Salin</span>
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Ucapan Section -->
+        <section id="ucapan" class="ucapan-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-subtitle">Kirim Doa & Ucapan</p>
+                    <h2 class="section-title">Ucapan & Doa</h2>
+                </div>
+
+                <div class="ucapan-form-wrapper reveal">
+                    <form id="ucapanForm" class="ucapan-form">
+                        <div class="form-group">
+                            <label for="namaInput">Nama</label>
+                            <input type="text" id="namaInput" name="nama" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesanInput">Ucapan & Doa</label>
+                            <textarea id="pesanInput" name="pesan" rows="4" placeholder="Tuliskan ucapan dan doa untuk kedua mempelai..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                            <span>Kirim Ucapan</span>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="ucapan-container reveal">
+                    <div class="ucapan-grid" id="ucapanList">
+                        <!-- Ucapan akan ditampilkan di sini -->
+                    </div>
+                    <div class="ucapan-actions">
+                        <button class="btn-view-all" id="viewAllBtn" style="display: none;">
+                            <span class="view-all-text">Lihat Semua Ucapan</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Streaming Section -->
+        <section id="streaming" class="streaming-section">
+            <div class="container">
+                <div class="streaming-content reveal reveal--zoom">
+                    <div class="streaming-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                        </svg>
+                    </div>
+                    <h2 class="streaming-title">Live Streaming</h2>
+                    <p class="streaming-text">
+                        Bagi keluarga dan sahabat yang tidak dapat hadir, 
+                        kami menyediakan tayangan langsung acara pernikahan kami.
+                    </p>
+                    <a href="#" class="btn-primary" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                        </svg>
+                        <span>Lihat Live Streaming</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer reveal">
+            <div class="container">
+                <div class="footer-content">
+                    <p class="footer-quote">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang."</p>
+                    <p class="footer-verse">— QS. Ar-Rum: 21</p>
+                    <div class="footer-divider">❀</div>
+                    <p class="footer-thanks">Terima kasih atas doa dan restu yang diberikan</p>
+                    <h3 class="footer-names">Nabila & Sukma</h3>
+                    <p class="footer-copyright">© 2025 | Fal Store <br>085789439067</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Ucapan Modal -->
+    <div id="ucapanModal" class="ucapan-modal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Semua Ucapan & Doa</h3>
+                <button class="modal-close" id="modalClose" aria-label="Close modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <div class="ucapan-grid" id="modalUcapanList">
+                    <!-- All ucapan will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Music Button -->
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle Music">
+        <svg id="musicOn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+        </svg>
+        <svg id="musicOff" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="1" y1="1" x2="23" y2="23"></line>
+            <path d="M9 9v9.5A3.5 3.5 0 0 0 12.5 22h0a3.5 3.5 0 0 0 3.5-3.5V9"></path>
+            <path d="M9 9H4"></path>
+            <path d="M9 9l3-3"></path>
+            <path d="M15 6l-3-3"></path>
+        </svg>
+    </button>
+
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="assets/music/bg-music2.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
